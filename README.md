@@ -91,10 +91,3 @@ OPENAI_API_KEY=your_api_key_here
 - Web Audio API for browser-based audio processing
 - Express.js and WebSocket communities for excellent frameworks
 
-## 📞 Support
-
-If you encounter any issues or have questions, please open an issue on GitHub.
-
----
-
-**Made with ❤️ by Garima Jain**

@@ -51,6 +51,7 @@ wss.on('connection', (ws) => {
       const data = JSON.parse(message);
       
       if (data.type === 'start_session') {
+        
         // Initialize OpenAI Realtime API connection
         await initializeOpenAIConnection(ws, data.instructions, data.voice);
       } else if (data.type === 'audio_data') {
